@@ -462,11 +462,11 @@ st.markdown('<div class="hero-wrap" id="home">', unsafe_allow_html=True)
 col_photo, col_text, col_anim = st.columns([1, 1.6, 1.2], gap="large", vertical_alignment="center")
 
 with col_photo:
-    IMAGE_PATH = Path(__file__).parent / "image_3.png"
+    IMAGE_PATH = Path(__file__).parent / "image_3.webp"
     if IMAGE_PATH.exists():
         st.image(str(IMAGE_PATH), width=300)
     else:
-        st.warning("⚠️ `image_3.png` not found next to `app.py`.")
+        st.warning("⚠️ `image_3.webp` not found next to `app.py`.")
 
 with col_text:
     st.markdown("""
