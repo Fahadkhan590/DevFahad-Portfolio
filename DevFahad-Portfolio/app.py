@@ -615,7 +615,7 @@ st.markdown("""
             <div class="project-block">
                 <h4>Goal</h4>
                 <p>Create a comprehensive financial-calculator hub covering loans, mortgages,
-                investments, and taxes — designed to make complex financial planning
+                investments, and taxes, etc — designed to make complex financial planning
                 accessible to everyone.</p>
             </div>
             <div class="project-block">
